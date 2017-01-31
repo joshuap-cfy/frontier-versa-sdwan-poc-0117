@@ -29,7 +29,7 @@ node_templates:
       versa_config: { get_property: [versa_configuration, versa_config] }
     relationships:
       - type: cloudify.versa.pool_connected_to_vm
-        target: flexvm
+        target: 
     interfaces:
       cloudify.interfaces.lifecycle:
         create:
